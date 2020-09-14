@@ -20,9 +20,17 @@ title: 接口定义模块
 
 ## 使用
 
-    implementation "com.ms:module-super:debug-latest"
+### 添加仓库
+
+     maven { url("http://nexus.mhw828.com/repository/maven-releases/") }
+
+### 添加依赖
+
+    implementation "com.ms:android-module-super:latest-RELEASE"
+
 
 ## API
+
 
 > Modules 类
 
